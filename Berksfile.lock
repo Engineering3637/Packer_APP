@@ -1,0 +1,28 @@
+DEPENDENCIES
+  nginx
+    git: https://github.com/Engineering3637/Nginxcookbook.git
+    revision: f23af8be6f8dad58999757cff12b35922478524d
+  node
+    git: https://github.com/Engineering3637/nodejs.git
+    revision: 4a89c1dad5260d319dc6602169881f3624dcd542
+
+GRAPH
+  apt (7.2.0)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  nginx (0.1.0)
+  node (0.1.0)
+    apt (>= 0.0.0)
+    nodejs (~> 6.0.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  seven_zip (3.1.1)
+    windows (>= 0.0.0)
+  windows (6.0.0)
