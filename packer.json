@@ -25,7 +25,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username":"ubuntu",
-    "ami_name": "ENG3637_APP-{{user `version`}}"
+    "ami_name": "ENG3637_APP_jenkins-{{user `version`}}"
   }],
   "provisioners":[
     {
