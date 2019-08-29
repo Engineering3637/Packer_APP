@@ -27,6 +27,7 @@
     "ssh_username":"ubuntu",
     "ami_name": "ENG3637_APP_jenkins-{{user `version`}}"
   }],
+
   "provisioners":[
     {
       "type": "chef-solo",
@@ -34,10 +35,7 @@
       "run_list": ["node::default"],
       "execute_command": "{{if .Sudo}}sudo {{end}}chef-solo --chef-license accept-silent -c {{.ConfigPath}} -j /tmp/node.json"
 
- }
-
-    },
-
+ },
 
     {
       "type": "shell",
