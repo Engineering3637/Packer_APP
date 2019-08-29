@@ -32,8 +32,12 @@
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
       "run_list": ["node::default"],
-      "client_rb": ["chef_license: accept"]
+      "execute_command": "{{if .Sudo}}sudo {{end}}chef-solo --chef-license accept-silent -c {{.ConfigPath}} -j /tmp/node.json"
+
+ }
+
     },
+
 
     {
       "type": "shell",
