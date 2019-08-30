@@ -33,7 +33,7 @@
       "type": "chef-solo",
       "run_list": ["node::default"],
       "cookbook_paths":  ["./cookbooks", "site-cookbooks"],
-      "execute_command": "{{if .Sudo}}sudo {{end}}chef-solo --chef-license accept-silent -c {{.ConfigPath}} -j /tmp/node.json",
+      "execute_command": "{{if .Sudo}}sudo {{end}}chef-solo --chef-license accept-silent -c {{.ConfigPath}} -j /tmp/node.json"
 
     },
 
