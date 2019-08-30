@@ -1,10 +1,10 @@
 DEPENDENCIES
   nginx
     git: https://github.com/Engineering3637/Nginxcookbook.git
-    revision: f23af8be6f8dad58999757cff12b35922478524d
+    revision: 98a16b125904f5c63c025e165f65a6184d633a57
   node
     git: https://github.com/Engineering3637/nodejs.git
-    revision: 4a89c1dad5260d319dc6602169881f3624dcd542
+    revision: 7c911f67199c4b12b656bbe6db80b71fd775cb4f
 
 GRAPH
   apt (7.2.0)
