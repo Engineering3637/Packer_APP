@@ -4,7 +4,7 @@ DEPENDENCIES
     revision: 98a16b125904f5c63c025e165f65a6184d633a57
   node
     git: https://github.com/Engineering3637/nodejs.git
-    revision: 7c911f67199c4b12b656bbe6db80b71fd775cb4f
+    revision: 90ed3fd46704a0a1da070dc31b04a5ec88873646
 
 GRAPH
   apt (7.2.0)

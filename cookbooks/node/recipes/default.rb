@@ -12,3 +12,7 @@ end
 include_recipe 'apt'
 include_recipe 'nodejs'
 nodejs_npm 'pm2'
+
+execute 'npm install' do
+  command 'sudo npm install'
+end
