@@ -64,6 +64,10 @@
       "type": "file",
       "source": "filebeat.yml",
       "destination": "/home/ubuntu/filebeat.yml"
+    },
+    {
+    "type": "shell",
+    "execuate_command": ["chef generate cookbook node chef-client --chef-license accept"]
     }
   ]
 }
