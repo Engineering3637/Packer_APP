@@ -65,7 +65,5 @@
       "source": "filebeat.yml",
       "destination": "/home/ubuntu/filebeat.yml"
     }
-
   ]
-
 }
