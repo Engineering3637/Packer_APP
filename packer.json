@@ -67,7 +67,7 @@
     },
     {
     "type": "shell",
-    "execuate_command": ["chef generate cookbook node chef-client --chef-license accept"]
+    "inline": ["chef generate cookbook node chef-client --chef-license accept"]
     }
   ]
 }
