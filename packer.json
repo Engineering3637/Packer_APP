@@ -32,7 +32,9 @@
     {
       "type": "chef-solo",
       "cookbook_paths":  ["./cookbooks"],
-      "run_list": ["node::default", "nginx::default"]
+      "run_list": ["node::default", "nginx::default"],
+      "chef_license": "accept"
+
     },
 
     {
@@ -65,5 +67,6 @@
       "source": "filebeat.yml",
       "destination": "/home/ubuntu/filebeat.yml"
     }
+
   ]
 }
