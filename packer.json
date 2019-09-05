@@ -32,9 +32,7 @@
     {
       "type": "chef-solo",
       "cookbook_paths":  ["./cookbooks"],
-      "run_list": ["node::default", "nginx::default"],
-      "chef_license": "accept"
-
+      "run_list": ["node::default", "nginx::default"]
     },
 
     {
@@ -55,7 +53,6 @@
       "type": "file",
       "source": "logstash-forwarder.crt",
       "destination": "/home/ubuntu/logstash-forwarder.crt"
-
     },
 
     {
